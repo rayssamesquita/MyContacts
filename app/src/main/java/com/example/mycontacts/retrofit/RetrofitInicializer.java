@@ -18,7 +18,7 @@ public class RetrofitInicializer {
                 .build();
     }
 
-    public ServiceAPI getHeroes(){
+    public ServiceAPI getApi(){
         return retrofit.create(ServiceAPI.class);
     }
 
